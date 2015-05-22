@@ -26,8 +26,16 @@ class FirstViewController: UIViewController, UITableViewDataSource {
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath:NSIndexPath) -> UITableViewCell {
-        let cell: UITableViewCell = UITableViewCell(style: UITableViewCellStyle.Subtitle, reuseIdentifier: "Cell")
-        cell.textLabel?.text = "test content"
+        //        let cell: UITableViewCell = UITableViewCell(style: UITableViewCellStyle.Subtitle, reuseIdentifier: "Cell")
+        //        cell.textLabel?.text = "test content"
+        
+//        var cell:TKLectureTableViewCell = tableView.dequeueReusableCellWithIdentifier("LuctureCell") as! TKLectureTableViewCell
+//        cell.conf
+//        if cell == nil {
+//           cell = TKLectureTableViewCell()
+//        }
+        
+        cell.textLabel?.text = "text contents desu."
         return cell
     }
     
