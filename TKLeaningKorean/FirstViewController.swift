@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class FirstViewController: UIViewController, UITableViewDataSource {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,5 +21,20 @@ class FirstViewController: UIViewController {
     }
 
 
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int  {
+        return 10
+    }
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath:NSIndexPath) -> UITableViewCell {
+        let cell: UITableViewCell = UITableViewCell(style: UITableViewCellStyle.Subtitle, reuseIdentifier: "Cell")
+        cell.textLabel?.text = "test content"
+        return cell
+    }
+    
+    func tableView(tableView: UITableView?, didSelectRowAtIndexPath indexPath:NSIndexPath!) {
+        println("selected \(indexPath.row)")
+    }
+
+    
 }
 
