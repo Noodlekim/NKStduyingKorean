@@ -16,6 +16,7 @@
 		0317C2EF1B0CF9BC00C840C6 /* TKLeaningKoreanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0317C2EE1B0CF9BC00C840C6 /* TKLeaningKoreanTests.swift */; };
 		0317C2F91B0CFA5E00C840C6 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0317C2F81B0CFA5E00C840C6 /* ThirdViewController.swift */; };
 		0317C2FB1B0CFB6400C840C6 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0317C2FA1B0CFB6400C840C6 /* SettingViewController.swift */; };
+		03CF10171B0ED97D00C8DD02 /* SampleResource in Resources */ = {isa = PBXBuildFile; fileRef = 03CF10161B0ED97D00C8DD02 /* SampleResource */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		0317C2EE1B0CF9BC00C840C6 /* TKLeaningKoreanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TKLeaningKoreanTests.swift; sourceTree = "<group>"; };
 		0317C2F81B0CFA5E00C840C6 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		0317C2FA1B0CFB6400C840C6 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		03CF10161B0ED97D00C8DD02 /* SampleResource */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SampleResource; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 		0317C2C81B0CF9BC00C840C6 = {
 			isa = PBXGroup;
 			children = (
+				03CF10161B0ED97D00C8DD02 /* SampleResource */,
 				0317C2D31B0CF9BC00C840C6 /* TKLeaningKorean */,
 				0317C2EB1B0CF9BC00C840C6 /* TKLeaningKoreanTests */,
 				0317C2D21B0CF9BC00C840C6 /* Products */,
@@ -201,6 +204,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03CF10171B0ED97D00C8DD02 /* SampleResource in Resources */,
 				0317C2DE1B0CF9BC00C840C6 /* Main.storyboard in Resources */,
 				0317C2E31B0CF9BC00C840C6 /* LaunchScreen.xib in Resources */,
 				0317C2E01B0CF9BC00C840C6 /* Images.xcassets in Resources */,
@@ -421,6 +425,7 @@
 				0317C2F41B0CF9BC00C840C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0317C2F51B0CF9BC00C840C6 /* Build configuration list for PBXNativeTarget "TKLeaningKoreanTests" */ = {
 			isa = XCConfigurationList;
@@ -429,6 +434,7 @@
 				0317C2F71B0CF9BC00C840C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
