@@ -10,15 +10,20 @@ import UIKit
 
 class SettingViewController: UIViewController {
 
+    @IBOutlet weak var tableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        self.tableView.rowHeight = 78
+        tableView.registerNib(UINib(nibName: "TKSettingTableViewCell", bundle: nil), forCellReuseIdentifier: "SettingNotificationCell")
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+
     }
     
 
@@ -32,4 +37,31 @@ class SettingViewController: UIViewController {
     }
     */
 
+    // MARK: - UITableViewDelegate -
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int  {
+        return 2
+    }
+    
+    func tableView(tableView: UITableView!, heightForRowAtIndexPath indexPath: NSIndexPath!) -> CGFloat {
+        return self.tableView.rowHeight
+    }
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath:NSIndexPath) -> UITableViewCell {
+        
+        let cell = tableView.dequeueReusableCellWithIdentifier("SettingNotificationCell", forIndexPath: indexPath) as! TKSettingTableViewCell
+        
+        if indexPath.row == 1 {
+            cell.descriptionLbl.text = "アプリを作った人たち"
+            cell.notificationSwitch.hidden = true
+        }
+        
+        return cell
+    }
+    
+    func tableView(tableView: UITableView?, didSelectRowAtIndexPath indexPath:NSIndexPath!) {
+        print("selected \(indexPath.row)")
+        if indexPath.row == 1 {
+            performSegueWithIdentifier("MadePeopleSegueID", sender: indexPath)
+        }        
+    }
 }

@@ -16,6 +16,19 @@
 		0317C2EF1B0CF9BC00C840C6 /* TKLeaningKoreanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0317C2EE1B0CF9BC00C840C6 /* TKLeaningKoreanTests.swift */; };
 		0317C2F91B0CFA5E00C840C6 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0317C2F81B0CFA5E00C840C6 /* ThirdViewController.swift */; };
 		0317C2FB1B0CFB6400C840C6 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0317C2FA1B0CFB6400C840C6 /* SettingViewController.swift */; };
+		0348E3A71B11D1AC003A4AF3 /* tab1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0348E3A31B11D1AC003A4AF3 /* tab1.png */; };
+		0348E3A81B11D1AC003A4AF3 /* tab2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0348E3A41B11D1AC003A4AF3 /* tab2.png */; };
+		0348E3A91B11D1AC003A4AF3 /* tab3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0348E3A51B11D1AC003A4AF3 /* tab3.png */; };
+		0348E3AA1B11D1AC003A4AF3 /* tab4.png in Resources */ = {isa = PBXBuildFile; fileRef = 0348E3A61B11D1AC003A4AF3 /* tab4.png */; };
+		0357F8D21B39AFDF00056770 /* header.png in Resources */ = {isa = PBXBuildFile; fileRef = 0357F8D11B39AFDF00056770 /* header.png */; };
+		0357F8D41B3CFD1C00056770 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0357F8D31B3CFD1C00056770 /* MainTabBarController.swift */; };
+		0357F8D71B3F221B00056770 /* CharacterDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0357F8D61B3F221B00056770 /* CharacterDetailViewController.swift */; };
+		0357F8DA1B3F24A500056770 /* TKFavoriteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0357F8D81B3F24A500056770 /* TKFavoriteTableViewCell.swift */; };
+		0357F8DB1B3F24A500056770 /* TKFavoriteTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0357F8D91B3F24A500056770 /* TKFavoriteTableViewCell.xib */; };
+		0357F8DE1B3F2E9600056770 /* TKContentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0357F8DD1B3F2E9600056770 /* TKContentDetailViewController.swift */; };
+		0357F8E11B3F2F5800056770 /* TKSettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0357F8DF1B3F2F5800056770 /* TKSettingTableViewCell.swift */; };
+		0357F8E21B3F2F5800056770 /* TKSettingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0357F8E01B3F2F5800056770 /* TKSettingTableViewCell.xib */; };
+		0357F8E51B3F389E00056770 /* TKCreditsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0357F8E41B3F389E00056770 /* TKCreditsViewController.swift */; };
 		03CF10171B0ED97D00C8DD02 /* SampleResource in Resources */ = {isa = PBXBuildFile; fileRef = 03CF10161B0ED97D00C8DD02 /* SampleResource */; };
 		CEF50ADF1B0F35110031C9AB /* TKLectureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF50ADD1B0F35110031C9AB /* TKLectureTableViewCell.swift */; };
 		CEF50AE01B0F35110031C9AB /* TKLectureTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEF50ADE1B0F35110031C9AB /* TKLectureTableViewCell.xib */; };
@@ -45,6 +58,19 @@
 		0317C2EE1B0CF9BC00C840C6 /* TKLeaningKoreanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TKLeaningKoreanTests.swift; sourceTree = "<group>"; };
 		0317C2F81B0CFA5E00C840C6 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		0317C2FA1B0CFB6400C840C6 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		0348E3A31B11D1AC003A4AF3 /* tab1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab1.png; sourceTree = "<group>"; };
+		0348E3A41B11D1AC003A4AF3 /* tab2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab2.png; sourceTree = "<group>"; };
+		0348E3A51B11D1AC003A4AF3 /* tab3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab3.png; sourceTree = "<group>"; };
+		0348E3A61B11D1AC003A4AF3 /* tab4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab4.png; sourceTree = "<group>"; };
+		0357F8D11B39AFDF00056770 /* header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = header.png; sourceTree = "<group>"; };
+		0357F8D31B3CFD1C00056770 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		0357F8D61B3F221B00056770 /* CharacterDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterDetailViewController.swift; sourceTree = "<group>"; };
+		0357F8D81B3F24A500056770 /* TKFavoriteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKFavoriteTableViewCell.swift; sourceTree = "<group>"; };
+		0357F8D91B3F24A500056770 /* TKFavoriteTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TKFavoriteTableViewCell.xib; sourceTree = "<group>"; };
+		0357F8DD1B3F2E9600056770 /* TKContentDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKContentDetailViewController.swift; sourceTree = "<group>"; };
+		0357F8DF1B3F2F5800056770 /* TKSettingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKSettingTableViewCell.swift; sourceTree = "<group>"; };
+		0357F8E01B3F2F5800056770 /* TKSettingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TKSettingTableViewCell.xib; sourceTree = "<group>"; };
+		0357F8E41B3F389E00056770 /* TKCreditsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKCreditsViewController.swift; sourceTree = "<group>"; };
 		03CF10161B0ED97D00C8DD02 /* SampleResource */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SampleResource; sourceTree = "<group>"; };
 		CEF50ADD1B0F35110031C9AB /* TKLectureTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKLectureTableViewCell.swift; sourceTree = "<group>"; };
 		CEF50ADE1B0F35110031C9AB /* TKLectureTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TKLectureTableViewCell.xib; sourceTree = "<group>"; };
@@ -71,6 +97,7 @@
 		0317C2C81B0CF9BC00C840C6 = {
 			isa = PBXGroup;
 			children = (
+				0348E3A21B11D1AC003A4AF3 /* Resource */,
 				03CF10161B0ED97D00C8DD02 /* SampleResource */,
 				0317C2D31B0CF9BC00C840C6 /* TKLeaningKorean */,
 				0317C2EB1B0CF9BC00C840C6 /* TKLeaningKoreanTests */,
@@ -91,12 +118,12 @@
 			isa = PBXGroup;
 			children = (
 				0317C2D61B0CF9BC00C840C6 /* AppDelegate.swift */,
-				0317C2D81B0CF9BC00C840C6 /* FirstViewController.swift */,
-				0317C2DA1B0CF9BC00C840C6 /* SecondViewController.swift */,
-				0317C2F81B0CFA5E00C840C6 /* ThirdViewController.swift */,
-				0317C2FA1B0CFB6400C840C6 /* SettingViewController.swift */,
-				CEF50AD71B0F34950031C9AB /* FirstMenu */,
+				0357F8D31B3CFD1C00056770 /* MainTabBarController.swift */,
 				0317C2DC1B0CF9BC00C840C6 /* Main.storyboard */,
+				CEF50AD71B0F34950031C9AB /* FirstMenu */,
+				0357F8DC1B3F25CC00056770 /* SecondMenu */,
+				0357F8D51B3F215300056770 /* ThirdMenu */,
+				0357F8E31B3F30AC00056770 /* SettingMenu */,
 				0317C2DF1B0CF9BC00C840C6 /* Images.xcassets */,
 				0317C2E11B0CF9BC00C840C6 /* LaunchScreen.xib */,
 				0317C2D41B0CF9BC00C840C6 /* Supporting Files */,
@@ -129,9 +156,54 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0348E3A21B11D1AC003A4AF3 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				0357F8D11B39AFDF00056770 /* header.png */,
+				0348E3A31B11D1AC003A4AF3 /* tab1.png */,
+				0348E3A41B11D1AC003A4AF3 /* tab2.png */,
+				0348E3A51B11D1AC003A4AF3 /* tab3.png */,
+				0348E3A61B11D1AC003A4AF3 /* tab4.png */,
+			);
+			name = Resource;
+			path = TKLeaningKorean/Resource;
+			sourceTree = "<group>";
+		};
+		0357F8D51B3F215300056770 /* ThirdMenu */ = {
+			isa = PBXGroup;
+			children = (
+				0317C2F81B0CFA5E00C840C6 /* ThirdViewController.swift */,
+				0357F8D61B3F221B00056770 /* CharacterDetailViewController.swift */,
+			);
+			name = ThirdMenu;
+			sourceTree = "<group>";
+		};
+		0357F8DC1B3F25CC00056770 /* SecondMenu */ = {
+			isa = PBXGroup;
+			children = (
+				0317C2DA1B0CF9BC00C840C6 /* SecondViewController.swift */,
+				0357F8D81B3F24A500056770 /* TKFavoriteTableViewCell.swift */,
+				0357F8D91B3F24A500056770 /* TKFavoriteTableViewCell.xib */,
+				0357F8DD1B3F2E9600056770 /* TKContentDetailViewController.swift */,
+			);
+			name = SecondMenu;
+			sourceTree = "<group>";
+		};
+		0357F8E31B3F30AC00056770 /* SettingMenu */ = {
+			isa = PBXGroup;
+			children = (
+				0317C2FA1B0CFB6400C840C6 /* SettingViewController.swift */,
+				0357F8DF1B3F2F5800056770 /* TKSettingTableViewCell.swift */,
+				0357F8E41B3F389E00056770 /* TKCreditsViewController.swift */,
+				0357F8E01B3F2F5800056770 /* TKSettingTableViewCell.xib */,
+			);
+			name = SettingMenu;
+			sourceTree = "<group>";
+		};
 		CEF50AD71B0F34950031C9AB /* FirstMenu */ = {
 			isa = PBXGroup;
 			children = (
+				0317C2D81B0CF9BC00C840C6 /* FirstViewController.swift */,
 				CEF50ADD1B0F35110031C9AB /* TKLectureTableViewCell.swift */,
 				CEF50ADE1B0F35110031C9AB /* TKLectureTableViewCell.xib */,
 			);
@@ -182,6 +254,7 @@
 		0317C2C91B0CF9BC00C840C6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = GG;
 				TargetAttributes = {
@@ -219,10 +292,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				03CF10171B0ED97D00C8DD02 /* SampleResource in Resources */,
+				0357F8DB1B3F24A500056770 /* TKFavoriteTableViewCell.xib in Resources */,
 				0317C2DE1B0CF9BC00C840C6 /* Main.storyboard in Resources */,
+				0348E3AA1B11D1AC003A4AF3 /* tab4.png in Resources */,
 				CEF50AE01B0F35110031C9AB /* TKLectureTableViewCell.xib in Resources */,
 				0317C2E31B0CF9BC00C840C6 /* LaunchScreen.xib in Resources */,
 				0317C2E01B0CF9BC00C840C6 /* Images.xcassets in Resources */,
+				0348E3A91B11D1AC003A4AF3 /* tab3.png in Resources */,
+				0348E3A71B11D1AC003A4AF3 /* tab1.png in Resources */,
+				0357F8D21B39AFDF00056770 /* header.png in Resources */,
+				0348E3A81B11D1AC003A4AF3 /* tab2.png in Resources */,
+				0357F8E21B3F2F5800056770 /* TKSettingTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,10 +320,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0357F8E51B3F389E00056770 /* TKCreditsViewController.swift in Sources */,
 				0317C2FB1B0CFB6400C840C6 /* SettingViewController.swift in Sources */,
+				0357F8E11B3F2F5800056770 /* TKSettingTableViewCell.swift in Sources */,
 				0317C2DB1B0CF9BC00C840C6 /* SecondViewController.swift in Sources */,
 				0317C2D71B0CF9BC00C840C6 /* AppDelegate.swift in Sources */,
+				0357F8D41B3CFD1C00056770 /* MainTabBarController.swift in Sources */,
+				0357F8DE1B3F2E9600056770 /* TKContentDetailViewController.swift in Sources */,
+				0357F8DA1B3F24A500056770 /* TKFavoriteTableViewCell.swift in Sources */,
 				CEF50ADF1B0F35110031C9AB /* TKLectureTableViewCell.swift in Sources */,
+				0357F8D71B3F221B00056770 /* CharacterDetailViewController.swift in Sources */,
 				0317C2F91B0CFA5E00C840C6 /* ThirdViewController.swift in Sources */,
 				0317C2D91B0CF9BC00C840C6 /* FirstViewController.swift in Sources */,
 			);

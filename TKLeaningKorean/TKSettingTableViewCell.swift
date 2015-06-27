@@ -1,19 +1,18 @@
 //
-//  TKLectureTableViewCell.swift
+//  TKSettingTableViewCell.swift
 //  TKLeaningKorean
 //
-//  Created by user on H27/05/22.
-//  Copyright (c) 平成27年 GG. All rights reserved.
+//  Created by NoodleKim on 2015/06/28.
+//  Copyright © 2015年 GG. All rights reserved.
 //
 
 import UIKit
 
-class TKLectureTableViewCell: UITableViewCell {
+class TKSettingTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var titleLabel: UILabel!
-    @IBOutlet weak var contentLabel: UILabel!
-    @IBOutlet weak var thumbnailImageView: UIImageView!
-    
+    @IBOutlet weak var descriptionLbl: UILabel!
+    @IBOutlet weak var notificationSwitch: UISwitch!
+
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
