@@ -62,6 +62,6 @@ class SettingViewController: UIViewController {
         print("selected \(indexPath.row)")
         if indexPath.row == 1 {
             performSegueWithIdentifier("MadePeopleSegueID", sender: indexPath)
-        }        
+        }
     }
 }

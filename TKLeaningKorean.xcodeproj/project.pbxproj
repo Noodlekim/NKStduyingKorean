@@ -20,6 +20,7 @@
 		0348E3A81B11D1AC003A4AF3 /* tab2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0348E3A41B11D1AC003A4AF3 /* tab2.png */; };
 		0348E3A91B11D1AC003A4AF3 /* tab3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0348E3A51B11D1AC003A4AF3 /* tab3.png */; };
 		0348E3AA1B11D1AC003A4AF3 /* tab4.png in Resources */ = {isa = PBXBuildFile; fileRef = 0348E3A61B11D1AC003A4AF3 /* tab4.png */; };
+		0355668E1B3FB09E0036AFE9 /* TKCustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0355668D1B3FB09E0036AFE9 /* TKCustomSegue.swift */; };
 		0357F8D21B39AFDF00056770 /* header.png in Resources */ = {isa = PBXBuildFile; fileRef = 0357F8D11B39AFDF00056770 /* header.png */; };
 		0357F8D41B3CFD1C00056770 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0357F8D31B3CFD1C00056770 /* MainTabBarController.swift */; };
 		0357F8D71B3F221B00056770 /* CharacterDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0357F8D61B3F221B00056770 /* CharacterDetailViewController.swift */; };
@@ -30,6 +31,7 @@
 		0357F8E21B3F2F5800056770 /* TKSettingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0357F8E01B3F2F5800056770 /* TKSettingTableViewCell.xib */; };
 		0357F8E51B3F389E00056770 /* TKCreditsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0357F8E41B3F389E00056770 /* TKCreditsViewController.swift */; };
 		03CF10171B0ED97D00C8DD02 /* SampleResource in Resources */ = {isa = PBXBuildFile; fileRef = 03CF10161B0ED97D00C8DD02 /* SampleResource */; };
+		03EA733B1B3FA3DB0085A8B6 /* TKRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EA733A1B3FA3DB0085A8B6 /* TKRootViewController.swift */; };
 		CEF50ADF1B0F35110031C9AB /* TKLectureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF50ADD1B0F35110031C9AB /* TKLectureTableViewCell.swift */; };
 		CEF50AE01B0F35110031C9AB /* TKLectureTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEF50ADE1B0F35110031C9AB /* TKLectureTableViewCell.xib */; };
 /* End PBXBuildFile section */
@@ -62,6 +64,7 @@
 		0348E3A41B11D1AC003A4AF3 /* tab2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab2.png; sourceTree = "<group>"; };
 		0348E3A51B11D1AC003A4AF3 /* tab3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab3.png; sourceTree = "<group>"; };
 		0348E3A61B11D1AC003A4AF3 /* tab4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab4.png; sourceTree = "<group>"; };
+		0355668D1B3FB09E0036AFE9 /* TKCustomSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKCustomSegue.swift; sourceTree = "<group>"; };
 		0357F8D11B39AFDF00056770 /* header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = header.png; sourceTree = "<group>"; };
 		0357F8D31B3CFD1C00056770 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		0357F8D61B3F221B00056770 /* CharacterDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterDetailViewController.swift; sourceTree = "<group>"; };
@@ -72,6 +75,7 @@
 		0357F8E01B3F2F5800056770 /* TKSettingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TKSettingTableViewCell.xib; sourceTree = "<group>"; };
 		0357F8E41B3F389E00056770 /* TKCreditsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKCreditsViewController.swift; sourceTree = "<group>"; };
 		03CF10161B0ED97D00C8DD02 /* SampleResource */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SampleResource; sourceTree = "<group>"; };
+		03EA733A1B3FA3DB0085A8B6 /* TKRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKRootViewController.swift; sourceTree = "<group>"; };
 		CEF50ADD1B0F35110031C9AB /* TKLectureTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKLectureTableViewCell.swift; sourceTree = "<group>"; };
 		CEF50ADE1B0F35110031C9AB /* TKLectureTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TKLectureTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -120,6 +124,8 @@
 				0317C2D61B0CF9BC00C840C6 /* AppDelegate.swift */,
 				0357F8D31B3CFD1C00056770 /* MainTabBarController.swift */,
 				0317C2DC1B0CF9BC00C840C6 /* Main.storyboard */,
+				03EA733A1B3FA3DB0085A8B6 /* TKRootViewController.swift */,
+				0355668D1B3FB09E0036AFE9 /* TKCustomSegue.swift */,
 				CEF50AD71B0F34950031C9AB /* FirstMenu */,
 				0357F8DC1B3F25CC00056770 /* SecondMenu */,
 				0357F8D51B3F215300056770 /* ThirdMenu */,
@@ -321,9 +327,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0357F8E51B3F389E00056770 /* TKCreditsViewController.swift in Sources */,
+				0355668E1B3FB09E0036AFE9 /* TKCustomSegue.swift in Sources */,
 				0317C2FB1B0CFB6400C840C6 /* SettingViewController.swift in Sources */,
 				0357F8E11B3F2F5800056770 /* TKSettingTableViewCell.swift in Sources */,
 				0317C2DB1B0CF9BC00C840C6 /* SecondViewController.swift in Sources */,
+				03EA733B1B3FA3DB0085A8B6 /* TKRootViewController.swift in Sources */,
 				0317C2D71B0CF9BC00C840C6 /* AppDelegate.swift in Sources */,
 				0357F8D41B3CFD1C00056770 /* MainTabBarController.swift in Sources */,
 				0357F8DE1B3F2E9600056770 /* TKContentDetailViewController.swift in Sources */,

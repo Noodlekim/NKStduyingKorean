@@ -21,8 +21,12 @@ class MainTabBarController: UITabBarController {
         
         UITabBar.appearance().tintColor = colorKey
 
-        self.view.addGestureRecognizer(self.gesture)
+//        self.view.addGestureRecognizer(self.gesture)
         self.navigationController?.hidesBarsOnTap = true
+        
+        let customTabbar: UIView = UIView(frame: CGRectMake(0, 0, 400, 44))
+        customTabbar.backgroundColor = colorKey
+        self.tabBar.addSubview(customTabbar)
     }
 
     override func didReceiveMemoryWarning() {
