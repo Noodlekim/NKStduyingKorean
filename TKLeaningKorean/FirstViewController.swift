@@ -25,6 +25,9 @@ class FirstViewController: UIViewController {
 
         self.tableView.rowHeight = 135.0
         tableView.registerNib(UINib(nibName: "TKLectureTableViewCell", bundle: nil), forCellReuseIdentifier: "LuctureCell")
+        
+        self.lastContentOffset = self.tableView.contentOffset
+
     }
 
     override func didReceiveMemoryWarning() {
@@ -58,7 +61,7 @@ class FirstViewController: UIViewController {
                 self.topLeftAnimationView.frame = leftFrame
                 self.topRightAnimationView.frame = rightFrame;
                 
-                }, completion: { (Bool) -> Void in
+                }, completion: { (isFinished: Bool) -> Void in
                     
             })
     }
@@ -97,20 +100,22 @@ class FirstViewController: UIViewController {
     // MARK : - UIScrollViewDelegate
     func scrollViewDidScroll(scrollView: UIScrollView) {
        
-//        NSLog("scrollViewDidScroll  %f", scrollView.contentOffset.y)
-        self.characterAnimation(scrollView.contentOffset)
+        if scrollView.contentOffset.y + scrollView.frame.size.height + 30 > scrollView.contentSize.height {
+            return
+        }
+        
+        if scrollView.contentOffset.y < 120 { // 端末機によるサイズ毎に計算できるように。
+            self.characterAnimation(scrollView.contentOffset)
+        }
         
         var isUp: Bool = true
-        if self.lastContentOffset.y > scrollView.contentOffset.y {
-
-//            scrollDirection = .ScrollDirectionUp
+        if self.lastContentOffset.y > scrollView.contentOffset.y + 40 {
             isUp = true
+            self.lastContentOffset = scrollView.contentOffset
         } else if self.lastContentOffset.y < scrollView.contentOffset.y {
-            
-//            scrollDirection = .ScrollDirectionDown
             isUp = false
+            self.lastContentOffset = scrollView.contentOffset
         }
-        self.lastContentOffset = scrollView.contentOffset
 
         let mainTabbarController:MainTabBarController = self.tabBarController as! MainTabBarController
         mainTabbarController.showTabbar(isUp)

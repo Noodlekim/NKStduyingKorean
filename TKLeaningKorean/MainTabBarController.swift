@@ -13,6 +13,9 @@ class MainTabBarController: UITabBarController, UITabBarControllerDelegate {
     @IBOutlet weak var gesture:UIGestureRecognizer!
     @IBOutlet weak var tabbar:UITabBar!
     
+    var isShowTabbar: Bool = true
+    var isAnimating: Bool = false
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -20,10 +23,22 @@ class MainTabBarController: UITabBarController, UITabBarControllerDelegate {
         
         self.navigationController?.hidesBarsOnTap = true
         self.delegate = self
-        self.tabbar.backgroundImage = UIImage(named: "header")
 
     }
 
+    override func viewWillLayoutSubviews() {
+
+        var tabFrame:CGRect = self.tabbar.frame
+        var tabViewFrame:CGRect = self.view.frame
+        tabViewFrame.size.height = CGRectGetHeight(UIScreen.mainScreen().bounds)
+            + CGRectGetHeight(tabFrame)
+        self.view.frame = tabViewFrame
+
+        tabFrame.origin.y = CGRectGetHeight(UIScreen.mainScreen().bounds)-CGRectGetHeight(tabFrame)
+        self.tabbar.frame = tabFrame
+
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -51,18 +66,26 @@ class MainTabBarController: UITabBarController, UITabBarControllerDelegate {
     // MARK: - Public
     // TODO : 無駄に動かないように対応。
     func showTabbar(isShow: Bool) {
+
         UIView.animateWithDuration(0.3, animations: { () -> Void in
+            if self.isAnimating {
+                return
+            }
+            self.isAnimating = true
+            
+            var tabFrame:CGRect = self.tabbar.frame
 
-            var tabFrame = self.tabbar.frame
+            if isShow && !self.isShowTabbar {
+                tabFrame.origin.y = CGRectGetHeight(UIScreen.mainScreen().bounds)-CGRectGetHeight(tabFrame)
 
-            if isShow {
-                tabFrame.origin.y = CGRectGetHeight(UIScreen.mainScreen().bounds) - CGRectGetHeight(tabFrame)
-            } else {
+            } else if !isShow && self.isShowTabbar {
                 tabFrame.origin.y = CGRectGetHeight(UIScreen.mainScreen().bounds)
             }
             self.tabbar.frame = tabFrame
             
-            }) { (Bool) -> Void in
-        }
+            }, completion: { (finished: Bool) -> Void in
+                self.isShowTabbar = !self.isShowTabbar
+                self.isAnimating = false
+       })
     }
 }
