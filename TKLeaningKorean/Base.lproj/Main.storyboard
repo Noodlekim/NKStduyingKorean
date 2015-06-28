@@ -425,7 +425,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <outlet property="gesture" destination="EQZ-Tx-GY3" id="fbf-Zt-X2C"/>
+                        <outlet property="tabbar" destination="W28-zg-YXA" id="MC6-dC-FH8"/>
                         <segue destination="eAy-97-jwo" kind="relationship" relationship="viewControllers" id="bbN-p1-fTM"/>
                         <segue destination="9dK-hK-VoP" kind="relationship" relationship="viewControllers" id="5G8-sK-Wjk"/>
                         <segue destination="PS2-ze-p0i" kind="relationship" relationship="viewControllers" id="xig-sM-rPk"/>
@@ -433,11 +433,6 @@
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
-                <panGestureRecognizer minimumNumberOfTouches="1" id="EQZ-Tx-GY3">
-                    <connections>
-                        <action selector="gesture:" destination="49e-Tb-3d3" id="cjO-3r-baG"/>
-                    </connections>
-                </panGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="-210" y="814"/>
         </scene>

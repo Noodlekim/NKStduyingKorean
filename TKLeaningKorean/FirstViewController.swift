@@ -15,6 +15,8 @@ class FirstViewController: UIViewController {
     @IBOutlet weak var topRightAnimationView: UIImageView!
     @IBOutlet weak var animationContentView: UIView!
     
+    var lastContentOffset: CGPoint = CGPointZero
+
     var isTopAnimationOpen: Bool = false
     
     override func viewDidLoad() {
@@ -97,6 +99,22 @@ class FirstViewController: UIViewController {
        
 //        NSLog("scrollViewDidScroll  %f", scrollView.contentOffset.y)
         self.characterAnimation(scrollView.contentOffset)
+        
+        var isUp: Bool = true
+        if self.lastContentOffset.y > scrollView.contentOffset.y {
+
+//            scrollDirection = .ScrollDirectionUp
+            isUp = true
+        } else if self.lastContentOffset.y < scrollView.contentOffset.y {
+            
+//            scrollDirection = .ScrollDirectionDown
+            isUp = false
+        }
+        self.lastContentOffset = scrollView.contentOffset
+
+        let mainTabbarController:MainTabBarController = self.tabBarController as! MainTabBarController
+        mainTabbarController.showTabbar(isUp)
+
     }
     
     
