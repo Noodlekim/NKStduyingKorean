@@ -18,6 +18,7 @@ class SettingViewController: UIViewController {
         // Do any additional setup after loading the view.
         self.tableView.rowHeight = 78
         tableView.registerNib(UINib(nibName: "TKSettingTableViewCell", bundle: nil), forCellReuseIdentifier: "SettingNotificationCell")
+
     }
 
     override func didReceiveMemoryWarning() {

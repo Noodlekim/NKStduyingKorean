@@ -16,6 +16,8 @@
 		0317C2EF1B0CF9BC00C840C6 /* TKLeaningKoreanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0317C2EE1B0CF9BC00C840C6 /* TKLeaningKoreanTests.swift */; };
 		0317C2F91B0CFA5E00C840C6 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0317C2F81B0CFA5E00C840C6 /* ThirdViewController.swift */; };
 		0317C2FB1B0CFB6400C840C6 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0317C2FA1B0CFB6400C840C6 /* SettingViewController.swift */; };
+		032551AC1B410AAE0036C949 /* TKCustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032551AB1B410AAE0036C949 /* TKCustomTabBarView.swift */; };
+		032551AE1B410B240036C949 /* TKCustomTabBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 032551AD1B410B240036C949 /* TKCustomTabBarView.xib */; };
 		0348E3A71B11D1AC003A4AF3 /* tab1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0348E3A31B11D1AC003A4AF3 /* tab1.png */; };
 		0348E3A81B11D1AC003A4AF3 /* tab2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0348E3A41B11D1AC003A4AF3 /* tab2.png */; };
 		0348E3A91B11D1AC003A4AF3 /* tab3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0348E3A51B11D1AC003A4AF3 /* tab3.png */; };
@@ -29,7 +31,30 @@
 		0357F8E11B3F2F5800056770 /* TKSettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0357F8DF1B3F2F5800056770 /* TKSettingTableViewCell.swift */; };
 		0357F8E21B3F2F5800056770 /* TKSettingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0357F8E01B3F2F5800056770 /* TKSettingTableViewCell.xib */; };
 		0357F8E51B3F389E00056770 /* TKCreditsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0357F8E41B3F389E00056770 /* TKCreditsViewController.swift */; };
+		03AB97821B40E624005252E1 /* background1.png in Resources */ = {isa = PBXBuildFile; fileRef = 03AB97811B40E624005252E1 /* background1.png */; };
+		03AB97861B40E78A005252E1 /* background2.png in Resources */ = {isa = PBXBuildFile; fileRef = 03AB97831B40E78A005252E1 /* background2.png */; };
+		03AB97871B40E78A005252E1 /* background3.png in Resources */ = {isa = PBXBuildFile; fileRef = 03AB97841B40E78A005252E1 /* background3.png */; };
+		03AB97881B40E78A005252E1 /* background4.png in Resources */ = {isa = PBXBuildFile; fileRef = 03AB97851B40E78A005252E1 /* background4.png */; };
 		03CF10171B0ED97D00C8DD02 /* SampleResource in Resources */ = {isa = PBXBuildFile; fileRef = 03CF10161B0ED97D00C8DD02 /* SampleResource */; };
+		03DD8D691B412AFC00711510 /* char1.png in Resources */ = {isa = PBXBuildFile; fileRef = 03DD8D5D1B412AFC00711510 /* char1.png */; };
+		03DD8D6A1B412AFC00711510 /* char2.png in Resources */ = {isa = PBXBuildFile; fileRef = 03DD8D5E1B412AFC00711510 /* char2.png */; };
+		03DD8D6B1B412AFC00711510 /* char3.png in Resources */ = {isa = PBXBuildFile; fileRef = 03DD8D5F1B412AFC00711510 /* char3.png */; };
+		03DD8D6C1B412AFC00711510 /* contemtSample.png in Resources */ = {isa = PBXBuildFile; fileRef = 03DD8D601B412AFC00711510 /* contemtSample.png */; };
+		03DD8D6D1B412AFC00711510 /* favoriteBottomChar.png in Resources */ = {isa = PBXBuildFile; fileRef = 03DD8D611B412AFC00711510 /* favoriteBottomChar.png */; };
+		03DD8D6E1B412AFC00711510 /* introCharLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 03DD8D621B412AFC00711510 /* introCharLeft.png */; };
+		03DD8D6F1B412AFC00711510 /* leftArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 03DD8D631B412AFC00711510 /* leftArrow.png */; };
+		03DD8D701B412AFC00711510 /* leftArrow2.png in Resources */ = {isa = PBXBuildFile; fileRef = 03DD8D641B412AFC00711510 /* leftArrow2.png */; };
+		03DD8D711B412AFC00711510 /* listHeader.png in Resources */ = {isa = PBXBuildFile; fileRef = 03DD8D651B412AFC00711510 /* listHeader.png */; };
+		03DD8D721B412AFC00711510 /* rightArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 03DD8D661B412AFC00711510 /* rightArrow.png */; };
+		03DD8D731B412AFC00711510 /* rightArrow2.png in Resources */ = {isa = PBXBuildFile; fileRef = 03DD8D671B412AFC00711510 /* rightArrow2.png */; };
+		03DD8D741B412AFC00711510 /* templistCell.png in Resources */ = {isa = PBXBuildFile; fileRef = 03DD8D681B412AFC00711510 /* templistCell.png */; };
+		03DD8D771B412C7700711510 /* leftHeader.png in Resources */ = {isa = PBXBuildFile; fileRef = 03DD8D751B412C7700711510 /* leftHeader.png */; };
+		03DD8D781B412C7700711510 /* rightHeader.png in Resources */ = {isa = PBXBuildFile; fileRef = 03DD8D761B412C7700711510 /* rightHeader.png */; };
+		03DD8D7A1B412E1B00711510 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 03DD8D791B412E1B00711510 /* back.png */; };
+		03DD8D7C1B412F4F00711510 /* makingPeople.png in Resources */ = {isa = PBXBuildFile; fileRef = 03DD8D7B1B412F4F00711510 /* makingPeople.png */; };
+		03DD8D7E1B41386800711510 /* mangaContent.png in Resources */ = {isa = PBXBuildFile; fileRef = 03DD8D7D1B41386800711510 /* mangaContent.png */; };
+		03DD8D811B41549200711510 /* answer.png in Resources */ = {isa = PBXBuildFile; fileRef = 03DD8D7F1B41549200711510 /* answer.png */; };
+		03DD8D821B41549200711510 /* hi.png in Resources */ = {isa = PBXBuildFile; fileRef = 03DD8D801B41549200711510 /* hi.png */; };
 		CEF50ADF1B0F35110031C9AB /* TKLectureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF50ADD1B0F35110031C9AB /* TKLectureTableViewCell.swift */; };
 		CEF50AE01B0F35110031C9AB /* TKLectureTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEF50ADE1B0F35110031C9AB /* TKLectureTableViewCell.xib */; };
 /* End PBXBuildFile section */
@@ -58,6 +83,8 @@
 		0317C2EE1B0CF9BC00C840C6 /* TKLeaningKoreanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TKLeaningKoreanTests.swift; sourceTree = "<group>"; };
 		0317C2F81B0CFA5E00C840C6 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		0317C2FA1B0CFB6400C840C6 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		032551AB1B410AAE0036C949 /* TKCustomTabBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKCustomTabBarView.swift; sourceTree = "<group>"; };
+		032551AD1B410B240036C949 /* TKCustomTabBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TKCustomTabBarView.xib; sourceTree = "<group>"; };
 		0348E3A31B11D1AC003A4AF3 /* tab1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab1.png; sourceTree = "<group>"; };
 		0348E3A41B11D1AC003A4AF3 /* tab2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab2.png; sourceTree = "<group>"; };
 		0348E3A51B11D1AC003A4AF3 /* tab3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab3.png; sourceTree = "<group>"; };
@@ -71,7 +98,30 @@
 		0357F8DF1B3F2F5800056770 /* TKSettingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKSettingTableViewCell.swift; sourceTree = "<group>"; };
 		0357F8E01B3F2F5800056770 /* TKSettingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TKSettingTableViewCell.xib; sourceTree = "<group>"; };
 		0357F8E41B3F389E00056770 /* TKCreditsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKCreditsViewController.swift; sourceTree = "<group>"; };
+		03AB97811B40E624005252E1 /* background1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background1.png; sourceTree = "<group>"; };
+		03AB97831B40E78A005252E1 /* background2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background2.png; sourceTree = "<group>"; };
+		03AB97841B40E78A005252E1 /* background3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background3.png; sourceTree = "<group>"; };
+		03AB97851B40E78A005252E1 /* background4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background4.png; sourceTree = "<group>"; };
 		03CF10161B0ED97D00C8DD02 /* SampleResource */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SampleResource; sourceTree = "<group>"; };
+		03DD8D5D1B412AFC00711510 /* char1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = char1.png; sourceTree = "<group>"; };
+		03DD8D5E1B412AFC00711510 /* char2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = char2.png; sourceTree = "<group>"; };
+		03DD8D5F1B412AFC00711510 /* char3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = char3.png; sourceTree = "<group>"; };
+		03DD8D601B412AFC00711510 /* contemtSample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contemtSample.png; sourceTree = "<group>"; };
+		03DD8D611B412AFC00711510 /* favoriteBottomChar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = favoriteBottomChar.png; sourceTree = "<group>"; };
+		03DD8D621B412AFC00711510 /* introCharLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = introCharLeft.png; sourceTree = "<group>"; };
+		03DD8D631B412AFC00711510 /* leftArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftArrow.png; sourceTree = "<group>"; };
+		03DD8D641B412AFC00711510 /* leftArrow2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftArrow2.png; sourceTree = "<group>"; };
+		03DD8D651B412AFC00711510 /* listHeader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = listHeader.png; sourceTree = "<group>"; };
+		03DD8D661B412AFC00711510 /* rightArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightArrow.png; sourceTree = "<group>"; };
+		03DD8D671B412AFC00711510 /* rightArrow2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightArrow2.png; sourceTree = "<group>"; };
+		03DD8D681B412AFC00711510 /* templistCell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = templistCell.png; sourceTree = "<group>"; };
+		03DD8D751B412C7700711510 /* leftHeader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftHeader.png; sourceTree = "<group>"; };
+		03DD8D761B412C7700711510 /* rightHeader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightHeader.png; sourceTree = "<group>"; };
+		03DD8D791B412E1B00711510 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		03DD8D7B1B412F4F00711510 /* makingPeople.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = makingPeople.png; sourceTree = "<group>"; };
+		03DD8D7D1B41386800711510 /* mangaContent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mangaContent.png; sourceTree = "<group>"; };
+		03DD8D7F1B41549200711510 /* answer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = answer.png; sourceTree = "<group>"; };
+		03DD8D801B41549200711510 /* hi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hi.png; sourceTree = "<group>"; };
 		CEF50ADD1B0F35110031C9AB /* TKLectureTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKLectureTableViewCell.swift; sourceTree = "<group>"; };
 		CEF50ADE1B0F35110031C9AB /* TKLectureTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TKLectureTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -117,9 +167,11 @@
 		0317C2D31B0CF9BC00C840C6 /* TKLeaningKorean */ = {
 			isa = PBXGroup;
 			children = (
+				0317C2DC1B0CF9BC00C840C6 /* Main.storyboard */,
 				0317C2D61B0CF9BC00C840C6 /* AppDelegate.swift */,
 				0357F8D31B3CFD1C00056770 /* MainTabBarController.swift */,
-				0317C2DC1B0CF9BC00C840C6 /* Main.storyboard */,
+				032551AB1B410AAE0036C949 /* TKCustomTabBarView.swift */,
+				032551AD1B410B240036C949 /* TKCustomTabBarView.xib */,
 				CEF50AD71B0F34950031C9AB /* FirstMenu */,
 				0357F8DC1B3F25CC00056770 /* SecondMenu */,
 				0357F8D51B3F215300056770 /* ThirdMenu */,
@@ -159,6 +211,29 @@
 		0348E3A21B11D1AC003A4AF3 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				03DD8D7F1B41549200711510 /* answer.png */,
+				03DD8D801B41549200711510 /* hi.png */,
+				03DD8D7B1B412F4F00711510 /* makingPeople.png */,
+				03DD8D7D1B41386800711510 /* mangaContent.png */,
+				03DD8D791B412E1B00711510 /* back.png */,
+				03DD8D751B412C7700711510 /* leftHeader.png */,
+				03DD8D761B412C7700711510 /* rightHeader.png */,
+				03DD8D5D1B412AFC00711510 /* char1.png */,
+				03DD8D5E1B412AFC00711510 /* char2.png */,
+				03DD8D5F1B412AFC00711510 /* char3.png */,
+				03DD8D601B412AFC00711510 /* contemtSample.png */,
+				03DD8D611B412AFC00711510 /* favoriteBottomChar.png */,
+				03DD8D621B412AFC00711510 /* introCharLeft.png */,
+				03DD8D631B412AFC00711510 /* leftArrow.png */,
+				03DD8D641B412AFC00711510 /* leftArrow2.png */,
+				03DD8D651B412AFC00711510 /* listHeader.png */,
+				03DD8D661B412AFC00711510 /* rightArrow.png */,
+				03DD8D671B412AFC00711510 /* rightArrow2.png */,
+				03DD8D681B412AFC00711510 /* templistCell.png */,
+				03AB97811B40E624005252E1 /* background1.png */,
+				03AB97831B40E78A005252E1 /* background2.png */,
+				03AB97841B40E78A005252E1 /* background3.png */,
+				03AB97851B40E78A005252E1 /* background4.png */,
 				0357F8D11B39AFDF00056770 /* header.png */,
 				0348E3A31B11D1AC003A4AF3 /* tab1.png */,
 				0348E3A41B11D1AC003A4AF3 /* tab2.png */,
@@ -291,17 +366,41 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03DD8D6D1B412AFC00711510 /* favoriteBottomChar.png in Resources */,
+				03DD8D771B412C7700711510 /* leftHeader.png in Resources */,
 				03CF10171B0ED97D00C8DD02 /* SampleResource in Resources */,
+				03AB97871B40E78A005252E1 /* background3.png in Resources */,
+				03DD8D811B41549200711510 /* answer.png in Resources */,
 				0357F8DB1B3F24A500056770 /* TKFavoriteTableViewCell.xib in Resources */,
+				03DD8D741B412AFC00711510 /* templistCell.png in Resources */,
+				03AB97861B40E78A005252E1 /* background2.png in Resources */,
+				03AB97821B40E624005252E1 /* background1.png in Resources */,
+				03DD8D6C1B412AFC00711510 /* contemtSample.png in Resources */,
+				032551AE1B410B240036C949 /* TKCustomTabBarView.xib in Resources */,
+				03DD8D711B412AFC00711510 /* listHeader.png in Resources */,
+				03DD8D731B412AFC00711510 /* rightArrow2.png in Resources */,
+				03DD8D7A1B412E1B00711510 /* back.png in Resources */,
 				0317C2DE1B0CF9BC00C840C6 /* Main.storyboard in Resources */,
+				03AB97881B40E78A005252E1 /* background4.png in Resources */,
+				03DD8D781B412C7700711510 /* rightHeader.png in Resources */,
+				03DD8D7E1B41386800711510 /* mangaContent.png in Resources */,
 				0348E3AA1B11D1AC003A4AF3 /* tab4.png in Resources */,
+				03DD8D691B412AFC00711510 /* char1.png in Resources */,
+				03DD8D6A1B412AFC00711510 /* char2.png in Resources */,
 				CEF50AE01B0F35110031C9AB /* TKLectureTableViewCell.xib in Resources */,
+				03DD8D821B41549200711510 /* hi.png in Resources */,
+				03DD8D6F1B412AFC00711510 /* leftArrow.png in Resources */,
 				0317C2E31B0CF9BC00C840C6 /* LaunchScreen.xib in Resources */,
+				03DD8D6B1B412AFC00711510 /* char3.png in Resources */,
 				0317C2E01B0CF9BC00C840C6 /* Images.xcassets in Resources */,
+				03DD8D6E1B412AFC00711510 /* introCharLeft.png in Resources */,
 				0348E3A91B11D1AC003A4AF3 /* tab3.png in Resources */,
 				0348E3A71B11D1AC003A4AF3 /* tab1.png in Resources */,
 				0357F8D21B39AFDF00056770 /* header.png in Resources */,
 				0348E3A81B11D1AC003A4AF3 /* tab2.png in Resources */,
+				03DD8D701B412AFC00711510 /* leftArrow2.png in Resources */,
+				03DD8D721B412AFC00711510 /* rightArrow.png in Resources */,
+				03DD8D7C1B412F4F00711510 /* makingPeople.png in Resources */,
 				0357F8E21B3F2F5800056770 /* TKSettingTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,6 +423,7 @@
 				0317C2FB1B0CFB6400C840C6 /* SettingViewController.swift in Sources */,
 				0357F8E11B3F2F5800056770 /* TKSettingTableViewCell.swift in Sources */,
 				0317C2DB1B0CF9BC00C840C6 /* SecondViewController.swift in Sources */,
+				032551AC1B410AAE0036C949 /* TKCustomTabBarView.swift in Sources */,
 				0317C2D71B0CF9BC00C840C6 /* AppDelegate.swift in Sources */,
 				0357F8D41B3CFD1C00056770 /* MainTabBarController.swift in Sources */,
 				0357F8DE1B3F2E9600056770 /* TKContentDetailViewController.swift in Sources */,

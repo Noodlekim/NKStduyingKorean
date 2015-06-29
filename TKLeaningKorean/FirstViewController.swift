@@ -47,14 +47,14 @@ class FirstViewController: UIViewController {
 
                 if self.isTopAnimationOpen == false && point.y > CGRectGetHeight(self.animationContentView.frame)/4 {
                     NSLog("open")
-                    leftFrame.origin.x = CGRectGetWidth(leftFrame) * (-1)
-                    rightFrame.origin.x = CGRectGetWidth(rightFrame)
+                    leftFrame.origin.x -= CGRectGetWidth(leftFrame)
+                    rightFrame.origin.x += CGRectGetWidth(rightFrame) + 40
                     self.isTopAnimationOpen = true
                     
                 } else if self.isTopAnimationOpen == true && point.y < CGRectGetHeight(self.animationContentView.frame)/4 {
                     NSLog("close")
                     leftFrame.origin.x = 0
-                    rightFrame.origin.x = 0
+                    rightFrame.origin.x = CGRectGetWidth(UIScreen.mainScreen().bounds) - CGRectGetWidth(rightFrame)
                     self.isTopAnimationOpen = false
                     
                 }
@@ -100,7 +100,8 @@ class FirstViewController: UIViewController {
     // MARK : - UIScrollViewDelegate
     func scrollViewDidScroll(scrollView: UIScrollView) {
        
-        if scrollView.contentOffset.y + scrollView.frame.size.height + 30 > scrollView.contentSize.height {
+        NSLog("scrollViewDidScroll y : %f", scrollView.contentOffset.y)
+        if scrollView.contentOffset.y + scrollView.frame.size.height + 30 > scrollView.contentSize.height || scrollView.contentOffset.y < 10{
             return
         }
         

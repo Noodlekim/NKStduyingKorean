@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8121.17" systemVersion="15A178w" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8121.17" systemVersion="15A204h" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8101.14"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TKLectureTableViewCell" customModule="TKLeaningKorean" customModuleProvider="target"/>
@@ -11,11 +12,11 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="135"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="320" height="134"/>
+                <rect key="frame" x="0.0" y="0.0" width="320" height="134.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zdf-LW-rzk">
-                        <rect key="frame" x="14" y="11" width="298" height="46"/>
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zdf-LW-rzk">
+                        <rect key="frame" x="20" y="12" width="289" height="46"/>
                         <animations/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -28,12 +29,26 @@
                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="first" translatesAutoresizingMaskIntoConstraints="NO" id="A0X-vO-c5g">
+                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="first" translatesAutoresizingMaskIntoConstraints="NO" id="A0X-vO-c5g">
                         <rect key="frame" x="14" y="56" width="82" height="78"/>
                         <animations/>
                     </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="templistCell.png" translatesAutoresizingMaskIntoConstraints="NO" id="Scp-U8-AU3">
+                        <rect key="frame" x="20" y="8" width="281" height="118.5"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="281" id="d8h-ui-VzY"/>
+                            <constraint firstAttribute="height" constant="118.5" id="yoi-8n-occ"/>
+                        </constraints>
+                    </imageView>
                 </subviews>
                 <animations/>
+                <constraints>
+                    <constraint firstItem="Scp-U8-AU3" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="CqX-Nw-hzX"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Scp-U8-AU3" secondAttribute="bottom" id="gDv-pR-uVJ"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Scp-U8-AU3" secondAttribute="trailing" constant="11" id="r06-5p-nVi"/>
+                    <constraint firstItem="Scp-U8-AU3" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="12" id="wWv-5W-1XL"/>
+                </constraints>
             </tableViewCellContentView>
             <animations/>
             <connections>
@@ -46,5 +61,6 @@
     </objects>
     <resources>
         <image name="first" width="30" height="30"/>
+        <image name="templistCell.png" width="668" height="336"/>
     </resources>
 </document>

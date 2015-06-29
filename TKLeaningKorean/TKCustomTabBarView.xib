@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8121.17" systemVersion="15A204h" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8101.14"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TKCustomTabBarView" customModule="TKLeaningKorean" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="IaR-6F-l9U"/>
+                <outlet property="firstMenuButton" destination="c66-6X-6Re" id="BZ6-YG-f4S"/>
+                <outlet property="fourthMenuButton" destination="cVe-QH-Q2A" id="WdA-m0-mfP"/>
+                <outlet property="secondMenuButton" destination="TVR-QT-q0P" id="OFM-ri-gl9"/>
+                <outlet property="thirdMenuButton" destination="DOe-YK-mfU" id="Hpi-vS-OBY"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="TKCustomTabBarView" customModule="TKLeaningKorean" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TVR-QT-q0P">
+                    <rect key="frame" x="80" y="0.0" width="80" height="49"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="お気に入り">
+                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="selected" backgroundImage="background1.png">
+                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="didSelectMenuButton:" destination="-1" eventType="touchUpInside" id="XuN-98-fHe"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DOe-YK-mfU">
+                    <rect key="frame" x="160" y="0.0" width="80" height="49"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="キャラ紹介">
+                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="selected" backgroundImage="background2.png">
+                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="didSelectMenuButton:" destination="-1" eventType="touchUpInside" id="tV2-iR-DRe"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cVe-QH-Q2A">
+                    <rect key="frame" x="240" y="0.0" width="80" height="49"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="設定">
+                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="selected" backgroundImage="background3.png">
+                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="didSelectMenuButton:" destination="-1" eventType="touchUpInside" id="HBm-eF-bIG"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c66-6X-6Re">
+                    <rect key="frame" x="0.0" y="0.0" width="80" height="49"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="一覧">
+                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="selected" backgroundImage="background4.png">
+                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="didSelectMenuButton:" destination="-1" eventType="touchUpInside" id="yYW-6R-AlP"/>
+                    </connections>
+                </button>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="cVe-QH-Q2A" firstAttribute="leading" secondItem="DOe-YK-mfU" secondAttribute="trailing" id="5k0-mN-t7G"/>
+                <constraint firstItem="c66-6X-6Re" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Brh-Gz-qp3"/>
+                <constraint firstItem="cVe-QH-Q2A" firstAttribute="width" secondItem="c66-6X-6Re" secondAttribute="width" id="DmR-kv-EYS"/>
+                <constraint firstItem="TVR-QT-q0P" firstAttribute="leading" secondItem="c66-6X-6Re" secondAttribute="trailing" id="H2Q-eC-cRL"/>
+                <constraint firstAttribute="bottom" secondItem="TVR-QT-q0P" secondAttribute="bottom" id="MNT-Dn-hfy"/>
+                <constraint firstItem="cVe-QH-Q2A" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="RMn-2W-Dcn"/>
+                <constraint firstItem="TVR-QT-q0P" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Rf8-cf-Wjo"/>
+                <constraint firstItem="c66-6X-6Re" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="TRV-BO-sCU"/>
+                <constraint firstItem="DOe-YK-mfU" firstAttribute="width" secondItem="c66-6X-6Re" secondAttribute="width" id="UmI-Rv-tpr"/>
+                <constraint firstAttribute="bottom" secondItem="c66-6X-6Re" secondAttribute="bottom" id="V6P-bB-IDG"/>
+                <constraint firstItem="TVR-QT-q0P" firstAttribute="height" secondItem="c66-6X-6Re" secondAttribute="height" id="ZfW-eG-2VK"/>
+                <constraint firstItem="cVe-QH-Q2A" firstAttribute="height" secondItem="c66-6X-6Re" secondAttribute="height" id="Zxp-IW-CNS"/>
+                <constraint firstAttribute="bottom" secondItem="DOe-YK-mfU" secondAttribute="bottom" id="brT-ev-PH8"/>
+                <constraint firstItem="DOe-YK-mfU" firstAttribute="leading" secondItem="TVR-QT-q0P" secondAttribute="trailing" id="fZm-ke-Ca0"/>
+                <constraint firstAttribute="bottom" secondItem="cVe-QH-Q2A" secondAttribute="bottom" id="jiV-jg-A5s"/>
+                <constraint firstItem="DOe-YK-mfU" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="mIJ-Gw-Nnq"/>
+                <constraint firstAttribute="trailing" secondItem="cVe-QH-Q2A" secondAttribute="trailing" id="v1H-lu-BUe"/>
+                <constraint firstItem="DOe-YK-mfU" firstAttribute="height" secondItem="c66-6X-6Re" secondAttribute="height" id="xxX-U0-iiV"/>
+                <constraint firstItem="TVR-QT-q0P" firstAttribute="width" secondItem="c66-6X-6Re" secondAttribute="width" id="zph-qV-aIh"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="293" y="191.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="background1.png" width="768" height="49"/>
+        <image name="background2.png" width="768" height="49"/>
+        <image name="background3.png" width="768" height="49"/>
+        <image name="background4.png" width="678" height="49"/>
+    </resources>
+</document>

@@ -14,6 +14,8 @@ class CharacterDetailViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        self.navigationItem.title = "キャラクターを選択"
+
     }
 
     override func didReceiveMemoryWarning() {

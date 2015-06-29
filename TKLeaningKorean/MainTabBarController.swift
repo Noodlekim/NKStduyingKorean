@@ -8,9 +8,8 @@
 
 import UIKit
 
-class MainTabBarController: UITabBarController, UITabBarControllerDelegate {
+class MainTabBarController: UITabBarController, UITabBarControllerDelegate, TKCustomTabBarViewDelegate {
 
-    @IBOutlet weak var gesture:UIGestureRecognizer!
     @IBOutlet weak var tabbar:UITabBar!
     
     var isShowTabbar: Bool = true
@@ -20,12 +19,10 @@ class MainTabBarController: UITabBarController, UITabBarControllerDelegate {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
-        self.navigationController?.hidesBarsOnTap = true
         self.delegate = self
-
+        
     }
-
+    
     override func viewWillLayoutSubviews() {
 
         var tabFrame:CGRect = self.tabbar.frame
@@ -36,16 +33,18 @@ class MainTabBarController: UITabBarController, UITabBarControllerDelegate {
 
         tabFrame.origin.y = CGRectGetHeight(UIScreen.mainScreen().bounds)-CGRectGetHeight(tabFrame)
         self.tabbar.frame = tabFrame
-
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        let customTabBar: TKCustomTabBarView = TKCustomTabBarView(frame: CGRectZero)
+        customTabBar.backgroundColor = UIColor.redColor()
+        customTabBar.delegate = self
+        self.tabbar.addSubview(customTabBar)
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
-    
-    @IBAction func gesture(sender:UIGestureRecognizer) {
-        NSLog("ok testing")
     }
 
     // MARK: - UITableViewDelegate
@@ -53,14 +52,33 @@ class MainTabBarController: UITabBarController, UITabBarControllerDelegate {
 
         NSLog("selected Menu %d", tabBarController.selectedIndex)
         
-//        let colorKey = UIColor(red: 255/255, green: 158/255, blue: 35/255, alpha: 1.0)
-        UITabBar.appearance().backgroundColor = UIColor.greenColor()
- 
+        
         return true
     }
     
-    func tabBarController(tabBarController: UITabBarController, didSelectViewController viewController: UIViewController) {
+    // MARK : TKCustomTabBarViewDelegate
+    func didSelectMunuButton(selectedButton: UIButton) {
         
+        if self.selectedIndex == selectedButton.tag {
+            
+            if let navigationController: UINavigationController = self.selectedViewController as? UINavigationController {
+                navigationController.popToRootViewControllerAnimated(true)
+
+            }
+            
+
+//            self.tabBarController?.selectedViewController?.navigationController?.popToRootViewControllerAnimated(true)
+        }
+        self.selectedIndex = selectedButton.tag
+        
+//        switch self.selectedIndex {
+//        case 0,1,3:
+//
+//        case 2:
+//
+//        default:
+//
+//        }
     }
     
     // MARK: - Public
