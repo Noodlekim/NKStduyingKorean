@@ -237,6 +237,13 @@
                                         <animations/>
                                         <color key="backgroundColor" red="0.80000001190000003" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="30l-zA-rn9">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="395"/>
+                                        <animations/>
+                                        <connections>
+                                            <action selector="playSound" destination="j2p-go-SDk" eventType="touchUpInside" id="BJf-vA-gFF"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <animations/>
                                 <constraints>

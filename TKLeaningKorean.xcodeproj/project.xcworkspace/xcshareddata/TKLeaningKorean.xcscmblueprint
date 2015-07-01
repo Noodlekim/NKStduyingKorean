@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "DD1DFD011E8811EC3A57692B3F1121D40DA5D98D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "7F9695B3869CCD3105ADC663DD154C7B1EE2F9F7" : 0,
+    "DD1DFD011E8811EC3A57692B3F1121D40DA5D98D" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "196C6E1D-4FB9-4840-9EB8-64FEEC5EFB40",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "7F9695B3869CCD3105ADC663DD154C7B1EE2F9F7" : "..\/2014\/Project\/MetroAlram_Final",
+    "DD1DFD011E8811EC3A57692B3F1121D40DA5D98D" : "NKLearningKorean"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TKLeaningKorean",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 203,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TKLeaningKorean.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/NoodleKim.local\/git\/MetroAlram_Final.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7F9695B3869CCD3105ADC663DD154C7B1EE2F9F7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Noodlekim\/NKStduyingKorean.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DD1DFD011E8811EC3A57692B3F1121D40DA5D98D"
+    }
+  ]
+}

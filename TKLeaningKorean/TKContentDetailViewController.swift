@@ -25,6 +25,12 @@ class TKContentDetailViewController: UIViewController {
         self.navigationController?.popViewControllerAnimated(true)
     }
     
+    @IBAction func playSound() {
+        
+        let instance:TKSoundManager = TKSoundManager()
+        instance.playsound("")
+    }
+    
     /*
     // MARK: - Navigation
 
