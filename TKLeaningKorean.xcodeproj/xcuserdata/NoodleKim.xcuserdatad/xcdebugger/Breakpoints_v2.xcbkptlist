@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TKLeaningKorean/TKCustomTabBarView.swift"
-            timestampString = "457254339.152954"
+            timestampString = "457517177.938346"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "53"
-            endingLineNumber = "53"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
             landmarkName = "didSelectMenuButton(_:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -58,11 +58,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TKLeaningKorean/MainTabBarController.swift"
-            timestampString = "457280799.692155"
+            timestampString = "457517177.938346"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "71"
-            endingLineNumber = "71"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
             landmarkName = "didSelectMunuButton(_:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -122,11 +122,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TKLeaningKorean/TKContentDetailViewController.swift"
-            timestampString = "457475111.541073"
+            timestampString = "457543464.959676"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "77"
-            endingLineNumber = "77"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
             landmarkName = "setContent(_:contents:)"
             landmarkType = "5">
             <Locations>
@@ -138,12 +138,12 @@
                   moduleName = "TKLeaningKorean"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/NoodleKim/Desktop/NoodleKim/Project/2015/NKLearningKorean/TKLeaningKorean/TKContentDetailViewController.swift"
-                  timestampString = "457452048.797079"
+                  timestampString = "457509633.719146"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "58"
-                  endingLineNumber = "58"
-                  offsetFromSymbolStart = "4159">
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "4051">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -153,14 +153,30 @@
                   moduleName = "TKLeaningKorean"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/NoodleKim/Desktop/NoodleKim/Project/2015/NKLearningKorean/TKLeaningKorean/TKContentDetailViewController.swift"
-                  timestampString = "457452048.797341"
+                  timestampString = "457509633.719407"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "58"
-                  endingLineNumber = "58"
-                  offsetFromSymbolStart = "4183">
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "4102">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TKLeaningKorean/TKContentDetailViewController.swift"
+            timestampString = "457543464.959676"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "playSound()"
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

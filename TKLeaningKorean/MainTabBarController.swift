@@ -29,7 +29,7 @@ class MainTabBarController: UITabBarController, UITabBarControllerDelegate, TKCu
         var tabViewFrame:CGRect = self.view.frame
         tabViewFrame.size.height = CGRectGetHeight(UIScreen.mainScreen().bounds)
             + CGRectGetHeight(tabFrame)
-        self.view.frame = tabViewFrame
+//        self.view.frame = tabViewFrame
 
         tabFrame.origin.y = CGRectGetHeight(UIScreen.mainScreen().bounds)-CGRectGetHeight(tabFrame)
         self.tabbar.frame = tabFrame
@@ -63,22 +63,10 @@ class MainTabBarController: UITabBarController, UITabBarControllerDelegate, TKCu
             
             if let navigationController: UINavigationController = self.selectedViewController as? UINavigationController {
                 navigationController.popToRootViewControllerAnimated(true)
-
+                
             }
-            
-
-//            self.tabBarController?.selectedViewController?.navigationController?.popToRootViewControllerAnimated(true)
         }
         self.selectedIndex = selectedButton.tag
-        
-//        switch self.selectedIndex {
-//        case 0,1,3:
-//
-//        case 2:
-//
-//        default:
-//
-//        }
     }
     
     // MARK: - Public

@@ -20,7 +20,8 @@ class TKCustomTabBarView: UIView {
     @IBOutlet weak var thirdMenuButton:UIButton!
     @IBOutlet weak var fourthMenuButton:UIButton!
 
-    var selectedButton:UIButton! = nil
+    private var selectedButton:UIButton! = nil
+    
     var delegate: TKCustomTabBarViewDelegate! = nil
 
     override init(frame: CGRect) {
