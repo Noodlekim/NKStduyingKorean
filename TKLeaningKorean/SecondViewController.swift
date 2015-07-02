@@ -11,17 +11,36 @@ import UIKit
 class SecondViewController: UIViewController {
 
     @IBOutlet weak var tableView:UITableView!
-    
+    @IBOutlet weak var trashBoxView:UIButton!
+
+//    @IBOutlet weak var longGesture: UILongPressGestureRecognizer!
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
         tableView.registerNib(UINib(nibName: "TKFavoriteTableViewCell", bundle: nil), forCellReuseIdentifier: "FavoriteCell")
+
     }
 
     // MARK: - Private Method -
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    // MARK: - Action
+    func longPressAction(gesture:UIGestureRecognizer) {
+        UIView.animateWithDuration(0.3) { () -> Void in
+            self.trashBoxView.alpha = 1.0
+        }
+    }
+    
+    @IBAction func tappedTrashBoxButton(sender:UIButton!) {
+        
+        print("tappedTrashBoxButton")
+        UIView.animateWithDuration(0.3) { () -> Void in
+            self.trashBoxView.alpha = 0.0
+        }
     }
 
     // MARK: - UITableViewDelegate -
@@ -42,7 +61,8 @@ class SecondViewController: UIViewController {
 //
 //        cell.rightKoreanLbl.text = ""
 //        cell.rightJapaneseLbl.text = ""
-
+        let longGesture: UILongPressGestureRecognizer = UILongPressGestureRecognizer(target: self, action: "longPressAction:")
+        cell.addGestureRecognizer(longGesture)
         return cell
     }
     

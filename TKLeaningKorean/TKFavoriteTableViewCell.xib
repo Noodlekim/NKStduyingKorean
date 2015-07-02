@@ -59,13 +59,21 @@
                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Answer.png" translatesAutoresizingMaskIntoConstraints="NO" id="CLg-hQ-teM">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Answer.png" translatesAutoresizingMaskIntoConstraints="NO" id="CLg-hQ-teM">
                         <rect key="frame" x="153" y="14" width="160" height="128"/>
                         <animations/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="128" id="0Bp-HV-dgm"/>
+                            <constraint firstAttribute="width" constant="160" id="6O6-v3-8IW"/>
+                        </constraints>
                     </imageView>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Hi.png" translatesAutoresizingMaskIntoConstraints="NO" id="TBf-XW-W8a">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Hi.png" translatesAutoresizingMaskIntoConstraints="NO" id="TBf-XW-W8a">
                         <rect key="frame" x="7" y="14" width="139" height="90"/>
                         <animations/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="90" id="gXQ-je-Khb"/>
+                            <constraint firstAttribute="width" constant="139" id="xcb-pt-Esa"/>
+                        </constraints>
                     </imageView>
                 </subviews>
                 <animations/>
@@ -74,12 +82,19 @@
                     <constraint firstItem="qou-Sh-pTu" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="12" id="7cy-vf-7eN"/>
                     <constraint firstAttribute="bottomMargin" secondItem="FAl-r4-JOw" secondAttribute="bottom" constant="11" id="9m2-ig-MYY"/>
                     <constraint firstAttribute="trailingMargin" secondItem="qou-Sh-pTu" secondAttribute="trailing" constant="-8" id="EbG-zj-3ct"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="CLg-hQ-teM" secondAttribute="bottom" constant="4.5" id="EpA-qE-5ZX"/>
                     <constraint firstItem="FeD-NR-Qug" firstAttribute="top" secondItem="qou-Sh-pTu" secondAttribute="bottom" id="J83-uF-KjN"/>
                     <constraint firstItem="9Sy-zT-lHm" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="12" id="Q3n-2p-r3v"/>
+                    <constraint firstItem="TBf-XW-W8a" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="6" id="STX-Ty-46u"/>
+                    <constraint firstItem="CLg-hQ-teM" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="6" id="TAQ-QG-iRq"/>
                     <constraint firstItem="9Sy-zT-lHm" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-8" id="TSA-tE-SnN"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="TBf-XW-W8a" secondAttribute="bottom" constant="42.5" id="XIQ-GG-daA"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="CLg-hQ-teM" secondAttribute="trailing" constant="-1" id="gUK-gg-nD5"/>
+                    <constraint firstItem="CLg-hQ-teM" firstAttribute="leading" secondItem="TBf-XW-W8a" secondAttribute="trailing" priority="950" constant="7" id="nMs-VP-fU3"/>
                     <constraint firstAttribute="trailingMargin" secondItem="FeD-NR-Qug" secondAttribute="trailing" constant="-8" id="qO1-We-2eM"/>
                     <constraint firstAttribute="bottomMargin" secondItem="FeD-NR-Qug" secondAttribute="bottom" constant="11" id="tf7-gZ-aNG"/>
                     <constraint firstItem="FAl-r4-JOw" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-8" id="uTJ-YA-VJg"/>
+                    <constraint firstItem="TBf-XW-W8a" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-1" id="vZU-Pc-ROj"/>
                     <constraint firstItem="FAl-r4-JOw" firstAttribute="top" secondItem="9Sy-zT-lHm" secondAttribute="bottom" constant="-1" id="z9J-4L-r4j"/>
                 </constraints>
             </tableViewCellContentView>

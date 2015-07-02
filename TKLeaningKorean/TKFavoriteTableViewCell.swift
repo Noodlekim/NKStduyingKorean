@@ -8,13 +8,16 @@
 
 import UIKit
 
-class TKFavoriteTableViewCell: UITableViewCell {
 
+
+class TKFavoriteTableViewCell: UITableViewCell {
+    
     @IBOutlet weak var leftKoreanLbl: UILabel!
     @IBOutlet weak var leftJapaneseLbl: UILabel!
     @IBOutlet weak var rightKoreanLbl: UILabel!
     @IBOutlet weak var rightJapaneseLbl: UILabel!
 
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -24,7 +27,5 @@ class TKFavoriteTableViewCell: UITableViewCell {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
-    }
-    
-    
+    }    
 }

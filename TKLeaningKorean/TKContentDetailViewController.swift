@@ -41,7 +41,7 @@ class TKContentDetailViewController: UIViewController {
     // MARK: - Private
     private func setContent(selectedIndex:NSInteger, contents:NSArray?) {
         
-        if var tempContents: NSArray = contents {
+        if let tempContents: NSArray = contents {
             
             let contentCount: CGFloat = CGFloat(tempContents.count)
             
