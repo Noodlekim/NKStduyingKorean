@@ -74,11 +74,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TKLeaningKorean/TKSoundManager.swift"
-            timestampString = "457423942.750528"
+            timestampString = "457450316.854712"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
             landmarkName = "audioPlayerDidFinishPlaying(_:successfully:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -90,13 +90,77 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TKLeaningKorean/TKSoundManager.swift"
-            timestampString = "457423942.750528"
+            timestampString = "457450316.854712"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
             landmarkName = "audioPlayerDecodeErrorDidOccur(_:error:)"
             landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TKLeaningKorean/TKSoundManager.swift"
+            timestampString = "457450316.854712"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "playsound(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TKLeaningKorean/TKContentDetailViewController.swift"
+            timestampString = "457475111.541073"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "setContent(_:contents:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TKLeaningKorean.TKContentDetailViewController.(setContent in _FD85A8A35686F9790DC1FFA56F3B5C96) (TKLeaningKorean.TKContentDetailViewController)(Swift.Int, contents : Swift.Optional&lt;ObjectiveC.NSArray&gt;) -&gt; ()"
+                  moduleName = "TKLeaningKorean"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/NoodleKim/Desktop/NoodleKim/Project/2015/NKLearningKorean/TKLeaningKorean/TKContentDetailViewController.swift"
+                  timestampString = "457452048.797079"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "4159">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TKLeaningKorean.TKContentDetailViewController.(setContent in _FD85A8A35686F9790DC1FFA56F3B5C96) (TKLeaningKorean.TKContentDetailViewController)(Swift.Int, contents : Swift.Optional&lt;ObjectiveC.NSArray&gt;) -&gt; ()"
+                  moduleName = "TKLeaningKorean"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/NoodleKim/Desktop/NoodleKim/Project/2015/NKLearningKorean/TKLeaningKorean/TKContentDetailViewController.swift"
+                  timestampString = "457452048.797341"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "4183">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
