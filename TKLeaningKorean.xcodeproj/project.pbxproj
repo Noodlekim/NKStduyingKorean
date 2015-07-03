@@ -36,7 +36,6 @@
 		03AB97861B40E78A005252E1 /* background2.png in Resources */ = {isa = PBXBuildFile; fileRef = 03AB97831B40E78A005252E1 /* background2.png */; };
 		03AB97871B40E78A005252E1 /* background3.png in Resources */ = {isa = PBXBuildFile; fileRef = 03AB97841B40E78A005252E1 /* background3.png */; };
 		03AB97881B40E78A005252E1 /* background4.png in Resources */ = {isa = PBXBuildFile; fileRef = 03AB97851B40E78A005252E1 /* background4.png */; };
-		03B5D3E31B43D20900EB7940 /* LetItGo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03B5D3E21B43D20900EB7940 /* LetItGo.mp3 */; };
 		03B5D3E51B43D2B400EB7940 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B5D3E41B43D2B400EB7940 /* AVKit.framework */; };
 		03CF10171B0ED97D00C8DD02 /* SampleResource in Resources */ = {isa = PBXBuildFile; fileRef = 03CF10161B0ED97D00C8DD02 /* SampleResource */; };
 		03D681171B43957700406F2F /* TKSoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D681161B43957700406F2F /* TKSoundManager.swift */; };
@@ -108,7 +107,6 @@
 		03AB97831B40E78A005252E1 /* background2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background2.png; sourceTree = "<group>"; };
 		03AB97841B40E78A005252E1 /* background3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background3.png; sourceTree = "<group>"; };
 		03AB97851B40E78A005252E1 /* background4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background4.png; sourceTree = "<group>"; };
-		03B5D3E21B43D20900EB7940 /* LetItGo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = LetItGo.mp3; sourceTree = "<group>"; };
 		03B5D3E41B43D2B400EB7940 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		03CF10161B0ED97D00C8DD02 /* SampleResource */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SampleResource; sourceTree = "<group>"; };
 		03D681161B43957700406F2F /* TKSoundManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKSoundManager.swift; sourceTree = "<group>"; };
@@ -161,7 +159,6 @@
 			children = (
 				03B5D3E41B43D2B400EB7940 /* AVKit.framework */,
 				03A9899E1B43B04600ADC788 /* sample.mp3 */,
-				03B5D3E21B43D20900EB7940 /* LetItGo.mp3 */,
 				03D6811A1B439D1F00406F2F /* AVFoundation.framework */,
 				0348E3A21B11D1AC003A4AF3 /* Resource */,
 				03CF10161B0ED97D00C8DD02 /* SampleResource */,
@@ -395,7 +392,6 @@
 				03DD8D6D1B412AFC00711510 /* favoriteBottomChar.png in Resources */,
 				03DD8D771B412C7700711510 /* leftHeader.png in Resources */,
 				03CF10171B0ED97D00C8DD02 /* SampleResource in Resources */,
-				03B5D3E31B43D20900EB7940 /* LetItGo.mp3 in Resources */,
 				03AB97871B40E78A005252E1 /* background3.png in Resources */,
 				03DD8D811B41549200711510 /* answer.png in Resources */,
 				0357F8DB1B3F24A500056770 /* TKFavoriteTableViewCell.xib in Resources */,

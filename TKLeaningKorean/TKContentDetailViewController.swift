@@ -106,4 +106,23 @@ class TKContentDetailViewController: UIViewController {
         
         soundManager.playsound("")
     }
+    
+    @IBAction func tappedPreNextButton(sender:UIButton!) {
+
+        UIView.animateWithDuration(0.3, animations: { () -> Void in
+            let moveWidth: CGFloat
+            if sender.tag == 0 {
+                moveWidth = self.contentScrollView.contentOffset.x - CGRectGetWidth(self.contentScrollView.bounds)
+            } else {
+                moveWidth = self.contentScrollView.contentOffset.x + CGRectGetWidth(self.contentScrollView.bounds)
+            }
+            
+            if moveWidth >= 0 && moveWidth <= CGRectGetWidth(self.contentView.bounds) - CGRectGetWidth(self.contentScrollView.bounds) {
+                self.contentScrollView.contentOffset = CGPoint(x: moveWidth, y: self.contentScrollView.contentOffset.y)
+            } else {
+                print("スクロールの範囲を超えました。")
+            }
+
+        })
+    }
 }
