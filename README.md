@@ -2,7 +2,7 @@
 
 ### 開発環境
 - Xcode7
-- Swift1.1
+- Swift1.1 -> Swift2
 
 ### 概要
 - Swift勉強用サンプルソース
