@@ -18,18 +18,16 @@ class TKSoundManager: NSObject, AVAudioPlayerDelegate {
         super.init()
         
         let soundUrl = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("sample", ofType: "mp3")!)
-//        print(soundUrl)
-        var audioError:NSError?
-        audioPlayer = AVAudioPlayer(contentsOfURL: soundUrl, error: &audioError)
-        
-        audioPlayer!.delegate = self
-        audioPlayer!.prepareToPlay()
-        audioPlayer!.volume = 1
-
-        if let error = audioError {
-            println("Error \(error.localizedDescription)")
+        do {
+            self.audioPlayer = try AVAudioPlayer.init(contentsOfURL: soundUrl)
+            
+            audioPlayer!.delegate = self
+            audioPlayer!.prepareToPlay()
+            audioPlayer!.volume = 1
+            
+        } catch let error {
+            print("Error \(error)")
         }
-
     }
     
     func playsound(fileName:NSString) {
