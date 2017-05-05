@@ -1,8 +1,8 @@
 # NKStduyingKorean
 
 ### 環境
-- Xcode7で起動
-- ~~Swift1.1~~ Swift2
+![tool](https://img.shields.io/badge/tool-xcode6-blue.svg)
+![language](https://img.shields.io/badge/language-swift2-yellow.svg)
 
 ### 概要
 - Swift勉強用サンプルソース
