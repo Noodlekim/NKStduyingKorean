@@ -1,6 +1,5 @@
 # NKStduyingKorean
 
-### 環境
 ![tool](https://img.shields.io/badge/tool-xcode7-blue.svg)
 ![language](https://img.shields.io/badge/language-swift2-yellow.svg)
 
